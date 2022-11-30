@@ -1,0 +1,15 @@
+.card {
+  padding: 2rem;
+  border: 1px solid #000;
+}
+
+.title {
+  font-size: 3rem;
+  margin-bottom: 0.2em;
+  font-weight: normal;
+}
+
+.text {
+  color: coral;
+  letter-spacing: 2px;
+}
