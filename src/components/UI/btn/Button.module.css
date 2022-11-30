@@ -1,13 +1,20 @@
 .btn {
   border: none;
   padding: 0.8em 1.6em;
-  background-color: gray;
+  background-color: #6c757d;
   color: #fff;
-  border-radius: 25px;
+  border-radius: 50px;
   transition: all 0.3s ease-out;
   font-size: 1rem;
   letter-spacing: 2px;
 }
 .btn:hover {
   background-color: #333;
+}
+
+.large {
+  font-size: 2rem;
+}
+.small {
+  font-size: 0.6rem;
 }
