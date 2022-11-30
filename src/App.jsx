@@ -8,7 +8,7 @@ function App() {
     <div className='App container'>
       <h1>React</h1>
 
-      <Grid>
+      <Grid cols={2}>
         <Card />
         <Card />
         <Card />
