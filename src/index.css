@@ -88,3 +88,9 @@ p {
 .upper {
   text-transform: uppercase;
 }
+
+.border {
+  padding: 10px;
+  border: 1px solid gray;
+  border-radius: 5px;
+}
