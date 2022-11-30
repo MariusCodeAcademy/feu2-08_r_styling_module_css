@@ -6,6 +6,7 @@ import css from './UserCard.module.css';
 // 3. panaudojam modulini css
 
 function UserCard(props) {
+  console.log('css ===', css);
   const [userData, setUserData] = useState({});
 
   // efektas kuris pasileidzia tik susikurus komponentui
@@ -30,7 +31,7 @@ function UserCard(props) {
         {firstName} {lastName}
       </h2>
       <h3>Age {age}</h3>
-      <p className={css.text}>Height: {height}cm</p>
+      <p className={css['card-text']}>Height: {height}cm</p>
     </div>
   );
 }
