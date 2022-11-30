@@ -18,3 +18,7 @@
 .small {
   font-size: 0.6rem;
 }
+
+.secondary {
+  background-color: coral;
+}
