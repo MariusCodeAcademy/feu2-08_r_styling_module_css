@@ -1,9 +1,11 @@
 import './App.css';
+import Card from './components/card/Card';
 
 function App() {
   return (
-    <div className='App'>
+    <div className='App container'>
       <h1>React</h1>
+      <Card />
     </div>
   );
 }
