@@ -1,7 +1,7 @@
 import css from './Grid.module.css';
 
 function Grid(props) {
-  console.log('props ===', props);
+  // console.log('props ===', props);
 
   let divStyles = {
     gridTemplateColumns: `repeat(${props.cols}, 1fr)`,

@@ -9,7 +9,7 @@ function Card(props) {
   const [toShowTitle, setToShowTitle] = useState(true);
   // 2 funkcijos kuri pakeicia state kad nerodyti title
   function showTitleHadle() {
-    console.log('showTitleHadle ran');
+    // console.log('showTitleHadle ran');
     setToShowTitle(false);
   }
   // 3 mygtuko paspaudimu iskviesti ta funkcija

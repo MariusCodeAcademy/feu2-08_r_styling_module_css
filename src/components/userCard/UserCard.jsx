@@ -18,7 +18,7 @@ function UserCard(props) {
     const resp = await fetch(url);
     const dataInJs = await resp.json();
     // gavom duomenis
-    console.log('dataInJs ===', dataInJs);
+    // console.log('dataInJs ===', dataInJs);
     setUserData(dataInJs);
   }
 

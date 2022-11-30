@@ -2,7 +2,7 @@ import css from './Button.module.css';
 
 function Button(props) {
   const btnSize = props.size;
-  console.log('btnSize ===', btnSize);
+  // console.log('btnSize ===', btnSize);
   // jei btnSize yra lg tai reikia prideti papildomai clase css.large
 
   const largeBtn = btnSize === 'lg' ? css.large : '';
