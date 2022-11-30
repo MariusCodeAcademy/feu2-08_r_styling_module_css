@@ -8,10 +8,10 @@ function App() {
   return (
     <div className='App container'>
       <h1>React</h1>
-      <Button>Read more</Button>
+      {/* <Button>Read more</Button>
       <Button secondary>I am secondary btn</Button>
       <Button size='lg'>Read more twice</Button>
-      <Button size='sm'>Read more twice</Button>
+      <Button size='sm'>Read more twice</Button> */}
 
       <Grid cols={2}>
         <Card />

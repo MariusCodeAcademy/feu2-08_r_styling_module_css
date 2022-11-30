@@ -14,7 +14,10 @@ function Button(props) {
   const secodaryClass = props.secondary ? css.secondary : '';
 
   return (
-    <button className={`${css.btn} ${largeBtn} ${smallBtn} ${secodaryClass}`}>
+    <button
+      onClick={props.onClick}
+      className={`${css.btn} ${largeBtn} ${smallBtn} ${secodaryClass}`}
+    >
       {props.children}
     </button>
   );
