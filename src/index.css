@@ -80,3 +80,11 @@ p {
   margin-left: auto;
   margin-right: auto;
 }
+
+.mr20 {
+  margin-right: 20px;
+}
+
+.upper {
+  text-transform: uppercase;
+}

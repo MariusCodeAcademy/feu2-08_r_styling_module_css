@@ -24,7 +24,8 @@ function Card(props) {
         numquam!
       </p>
       <div>
-        <Button className={css.mr2} onClick={showTitleHadle}>
+        {/* Custom sukurtiems komponentams paduodant savybes kurios priklauso html elementams turime komponento viduje perduoti tas savybe i html elementa. */}
+        <Button className={'upper mr20'} onClick={showTitleHadle}>
           Hide title
         </Button>
         <Button secondary>Dark mode</Button>
