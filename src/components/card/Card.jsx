@@ -23,10 +23,12 @@ function Card(props) {
         possimus accusamus tempore veniam, a assumenda quo nisi rem repellendus
         numquam!
       </p>
-      <Grid cols={2}>
-        <Button onClick={showTitleHadle}>Hide title</Button>
-        <Button>Dark mode</Button>
-      </Grid>
+      <div>
+        <Button className={css.mr2} onClick={showTitleHadle}>
+          Hide title
+        </Button>
+        <Button secondary>Dark mode</Button>
+      </div>
     </div>
   );
 }

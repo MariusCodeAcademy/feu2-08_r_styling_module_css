@@ -12,11 +12,12 @@ function Button(props) {
   // aprasyti klase .secondary - bacground color coral
 
   const secodaryClass = props.secondary ? css.secondary : '';
+  const passedClass = props.className ? props.className : '';
 
   return (
     <button
       onClick={props.onClick}
-      className={`${css.btn} ${largeBtn} ${smallBtn} ${secodaryClass}`}
+      className={`${css.btn} ${largeBtn} ${smallBtn} ${secodaryClass} ${passedClass}`}
     >
       {props.children}
     </button>
